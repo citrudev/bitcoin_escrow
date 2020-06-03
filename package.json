@@ -1,0 +1,24 @@
+{
+  "name": "bitcoin_escrow",
+  "version": "1.0.0",
+  "description": "bitcoinescrow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bitcoin",
+    "escrow"
+  ],
+  "author": "citrudev",
+  "license": "ISC",
+  "dependencies": {
+    "bip32": "^2.0.5",
+    "bip39": "^3.0.2",
+    "bitcoin-receive-payments": "0.0.39",
+    "bitcoinjs-lib": "^5.1.7",
+    "env": "0.0.2",
+    "hdkey": "^1.1.1",
+    "redis": "^2.8.0"
+  }
+}
